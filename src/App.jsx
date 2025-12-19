@@ -6,8 +6,10 @@ import { useState, useEffect } from "react";
 import { createClient } from '@supabase/supabase-js';
 
 /* ================= SUPABASE CONFIG ================= */
-const SUPABASE_URL = https://vsbljqiqqesutewblfhj.supabase.co';
-const SUPABASE_ANON_KEY = sb_publishable_74ABbVMh5u4A06BrF_NHWw_3d6I6PfT';
+import { createClient } from "@supabase/supabase-js";
+
+const SUPABASE_URL = 'https://vsbljqiqqesutewblfhj.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_74ABbVMh5u4A06BrF_NHWw_3d6I6PfT';
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
 /* ================= MAIN APP ================= */
